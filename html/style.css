@@ -1,0 +1,120 @@
+html {
+    width: 364mm;
+    height: 257mm;
+    size: B4 landscape;
+    text-align: center;
+    margin:0;
+}
+div {
+    border: solid 1px;
+    font-size: 8px;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.items-column {
+    flex-direction: column;
+}
+.items-row {
+    flex-direction: row;
+}
+.items-sp-between {
+    justify-content: space-between;
+}
+
+.item {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.vertical {
+    -ms-writing-mode: tb-rl;
+    writing-mode: vertical-rl;
+}
+
+.fullsize {
+    width: 100%;
+    height: 100%;
+}
+
+.width_22mm {
+    width: 22mm;
+}
+.width_40mm {
+    width: 40mm;
+}
+.width_95mm {
+    width: 95mm;
+}
+.width_116mm {
+    width: 116mm;
+}
+.width_322mm {
+    width: 322mm;
+}
+
+.height_18mm {
+    height: 18mm;
+}
+.height_22mm {
+    height: 22mm;
+}
+.height_30mm {
+    height: 30mm;
+}
+.height_36mm {
+    height: 36mm;
+}
+.height_78mm {
+    height: 78mm;
+}
+.height_82mm {
+    height: 82mm;
+}
+.height_161mm {
+    height: 161mm;
+}
+
+.flex_grow_1 {
+    flex-grow: 1;
+}
+.flex_grow_2 {
+    flex-grow: 2;
+}
+.flex_grow_3 {
+    flex-grow: 3;
+}
+.flex_grow_5 {
+    flex-grow: 5;
+}
+
+/* 固有 */
+/* 『学部・学科』『担当区分』『担当科目』 */
+.class_height {
+    height: 6mm;
+}
+/* 各科目欄 */
+.class_box {
+    width: 60mm;
+    height: 82mm;
+}
+/* 『具体的な業務内容』『要望意見』 */
+.input_box {
+    width: 100%;
+    height: 18mm;
+}
+/* 担当項目欄 */
+.attend_box {
+    width: 8.5mm;
+    height: 5mm;
+}
